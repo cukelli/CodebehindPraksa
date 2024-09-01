@@ -45,7 +45,6 @@ for (let group of groupsFromFile) {
             let secondPoints = getRandomInt(60,100);
 
             //predaja 
-
             if (firstPoints === secondPoints) {
                 secondPoints = secondPoints + 1;
                 flag = true;
